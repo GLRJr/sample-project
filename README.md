@@ -1,4 +1,4 @@
 # sample-project
-React-Native Sample Project for WeeBID
+React-Native Sample Project
 
-This is the Sample Project for WeeBID Interns to familiarize themselves with the React-Native framework.
+This is the Sample Project for Interns to familiarize themselves with the React-Native framework.
