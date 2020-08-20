@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import { Image, StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import logo from './assets/logomedium.png';
-import Navigator from './weebid/Routes/HomeStack';
+import Navigator from './Routes/HomeStack';
 
 export default function App() {
   const [firstname, setFirstname]= useState('ken');
