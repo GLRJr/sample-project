@@ -1,6 +1,6 @@
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
-import App from './weebid/App';
+import App from './App';
 import React from 'react';
 import {Text, Stylesheet} from 'react-native';
 
