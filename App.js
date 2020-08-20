@@ -10,7 +10,7 @@ export default function App() {
   const [firstname, setFirstname]= useState('ken');
   const [lastname, setLastname]= useState('ryu');
   const [mail, setMail]= useState('elena@sf.com');
-  const [psswrd, setPsswrd]= useState('haduken');
+  const [psswrd, setPsswrd]= useState('DragonPunch');
   
   return (
     <View style={styles.container}>
@@ -46,7 +46,7 @@ export default function App() {
         
       {/*This is the button*/}
       <TouchableOpacity
-      onPress={() => alert('Dragon Punch')}
+      onPress={() => alert('Haduken')}
       style= {styles.button}>
       <Text style= {styles.buttonText}> Last Step </Text>
       </TouchableOpacity>
