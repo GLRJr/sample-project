@@ -40,7 +40,7 @@ export default function App() {
       <StatusBar style="auto" />
 
       <TouchableOpacity
-      onPress={() => alert('Test')}
+      onPress={() => alert('Dragon Punch')}
       style= {styles.button}>
       <Text style= {styles.buttonText}> Last Step </Text>
       </TouchableOpacity>
