@@ -4,6 +4,8 @@ import { Image, StyleSheet, Text, View, TextInput, TouchableOpacity } from 'reac
 import logo from './assets/logomedium.png';
 import Navigator from './Routes/HomeStack';
 
+
+{/*This sets up user inputs*/}
 export default function App() {
   const [firstname, setFirstname]= useState('ken');
   const [lastname, setLastname]= useState('ryu');
@@ -12,9 +14,11 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-
+      
+    {/*This is the logo*/}
     <Image source ={logo} style= {styles.logo}/>
-
+    
+      {/*These are the text input boxes*/}
       <Text style={styles.words}> First Name</Text>
       <TextInput 
       style={styles.input}
@@ -39,12 +43,16 @@ export default function App() {
       onChangeText={(val) => setPsswrd(val)}/>
       <StatusBar style="auto" />
 
+        
+      {/*This is the button*/}
       <TouchableOpacity
       onPress={() => alert('Dragon Punch')}
       style= {styles.button}>
       <Text style= {styles.buttonText}> Last Step </Text>
       </TouchableOpacity>
 
+
+       {/*I put this here to verify user input is being stored, This will eventually be passed onto another screen*/}
       <Text style={styles.words}>First Name: {firstname}{"\n"}
             Last Name:  {lastname}{"\n"}
             E-mail:     {mail}{"\n"}
