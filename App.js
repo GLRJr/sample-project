@@ -114,10 +114,10 @@ const styles = StyleSheet.create({
     marginBottom: 60,
   },
   words: {
-  	color: '#f2f2f2'
+    color: '#f2f2f2'
   },
   Dwords: {
-  	color: '#7FFFD4'
+    color: '#7FFFD4'
   },
   button: {
     alignSelf: 'center',
