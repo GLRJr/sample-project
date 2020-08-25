@@ -89,6 +89,7 @@ const Stack = createStackNavigator();
     </NavigationContainer>
   );
 }
+
 {/*This is page styling or "CSS"*/}
 const styles = StyleSheet.create({
   container: {
@@ -106,6 +107,7 @@ const styles = StyleSheet.create({
     height: 50,
     width: 345,
   },
+  
   logo: {
     width: 217,
     height: 46,
@@ -113,12 +115,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginBottom: 60,
   },
+  
   words: {
     color: '#f2f2f2'
   },
+  
   Dwords: {
     color: '#7FFFD4'
   },
+  
   button: {
     alignSelf: 'center',
     backgroundColor: "gray",
@@ -127,6 +132,7 @@ const styles = StyleSheet.create({
     marginTop: 50,
     width: 200,
   },
+  
   buttonText: {
     alignSelf: 'center',
     fontSize: 20,
