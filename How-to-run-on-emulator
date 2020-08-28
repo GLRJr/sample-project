@@ -1,0 +1,17 @@
+How to get running after cloning from github
+
+1. Make sure you have node installed
+
+2. Brew install yarn
+
+3. "yarn install"
+
+4. "cd ios"
+
+5. install cocoapods
+
+6. type "pod install"
+
+7. cd back to main directory
+
+8. yarn ios:11
