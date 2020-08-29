@@ -11,6 +11,7 @@ export default function App() {
   const [lastname, setLastname]= useState('ryu');
   const [mail, setMail]= useState('elena@sf.com');
   const [psswrd, setPsswrd]= useState('haduken');
+  const [modalVisable, setModalState] = useState(false);
   
   return (
     <View style={styles.container}>
